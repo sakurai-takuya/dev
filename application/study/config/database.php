@@ -50,8 +50,8 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'onetop0721';
-$db['default']['database'] = 'wiz_portal';
+$db['default']['password'] = 'wizgroup';
+$db['default']['database'] = 'sakurai';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = FALSE;

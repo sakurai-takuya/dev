@@ -38,12 +38,8 @@
 |
 */
 
-$route['default_controller']      = 'general/index';
-$route['login']                   = 'general/login';
-$route['logout']                  = 'general/logout';
-$route['regist_user']             = 'general/regist_user';
-$route['delete_user']             = 'general/delete_user';
-$route['delete_user_done/(:num)'] = 'general/delete_user_done/$1';
+$route['default_controller'] = 'top';
+$route['404_override']       = '';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

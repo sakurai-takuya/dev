@@ -25,8 +25,8 @@
  */
 class MY_Form_validation extends CI_Form_validation {
 
-    protected $_error_prefix = '<span id="error_area">';
-    protected $_error_suffix = '</span><br />';
+    protected $_error_prefix = '<div class="error_area"><span class="style_p20_error">';
+    protected $_error_suffix = '</span></div>';
 
 	/**
 	 * Constructor
@@ -338,23 +338,6 @@ class MY_Form_validation extends CI_Form_validation {
 			return TRUE;
 		}
 		return ( ! preg_match("/^[A-Z]+ *[A-Z]+$/", $str)) ? FALSE : TRUE;
-	}
-
-	/**
-	 * 性別
-	 *
-	 * @access public
-	 * @param  string
-	 * @return bool
-	 *
-	 */
-	public function sex($str)
-	{
-		if ($str === '')
-		{
-			return TRUE;
-		}
-		return ( ! preg_match("/^(M|F)$/", $str)) ? FALSE : TRUE;
 	}
 
 	/**

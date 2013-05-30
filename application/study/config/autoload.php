@@ -117,7 +117,7 @@ $autoload['model'] = array();
 |
 */
 
-$autoload['sparks'] = array('Auth/2.0.5');
+$autoload['sparks'] = array();
 
 /* End of file autoload.php */
 /* Location: ./application/config/autoload.php */
