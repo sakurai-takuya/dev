@@ -20,8 +20,8 @@
 		<h1>ページの説明ああああああああああああああああ</h1>
 	</div>
 	<div id="globalnavi">
-	<ul class="clearfix">
-		<li><a href="/">トップ</a></li>
+		<ul class="clearfix">
+			<li><a href="/">トップ</a></li>
 			<li><a href="/">コンテンツ1</a></li>
 			<li><a href="/">コンテンツ2</a></li>
 			<li><a href="/">コンテンツ3</a></li>
@@ -30,7 +30,7 @@
 	</div>
 
 	<noscript>
-	<div class="js_error">[注意] JavaScriptが無効になっています。JavaScriptの設定を有効にして下さい。</div>
+		<div class="js_error">[注意] JavaScriptが無効になっています。JavaScriptの設定を有効にして下さい。</div>
 	</noscript>
 
 	<?php echo $contents;?>
