@@ -17,37 +17,37 @@
 <body>
 <div id="wrapper">
 	<div id="desc">
-   	    <h1>ページの説明ああああああああああああああああ</h1>
-    </div>
-    <!--<div id="logo">
-    <a href="/"><img src="/assets/study/img/logo.gif" alt="勉強部屋" /></a>
-    </div>-->
-    <div id="globalnavi">
-   	    <ul class="clearfix">
-            <li><a href="/">トップ</a></li>
-            <li><a href="/">コンテンツ1</a></li>
-            <li><a href="/">コンテンツ2</a></li>
-            <li><a href="/">コンテンツ3</a></li>
-            <li><a href="/">コンテンツ4</a></li>
-        </ul>
-    </div>
+		<h1>ページの説明ああああああああああああああああ</h1>
+	</div>
+	<!--<div id="logo">
+	<a href="/"><img src="/assets/study/img/logo.gif" alt="勉強部屋" /></a>
+	</div>-->
+	<div id="globalnavi">
+	<ul class="clearfix">
+		<li><a href="/">トップ</a></li>
+			<li><a href="/">コンテンツ1</a></li>
+			<li><a href="/">コンテンツ2</a></li>
+			<li><a href="/">コンテンツ3</a></li>
+			<li><a href="/">コンテンツ4</a></li>
+		</ul>
+	</div>
 
 	<noscript>
 	<div class="js_error">[注意] JavaScriptが無効になっています。JavaScriptの設定を有効にして下さい。</div>
-    </noscript>
+	</noscript>
 
-    <?php echo $contents;?>
+	<?php echo $contents;?>
 
-    <div id="footer_wrapper">
-        <div id="footer" class="clearfix">
-            <div id="copyright">Copyright <?php echo date('Y');?> study room of sakurai. All Rights Reserved</div>
-            <div id="footer_navi">
-                <a href="/">コンテンツ5</a> | 
-                <a href="/">コンテンツ6</a> | 
-                <a href="/">コンテンツ7</a>
-            </div>
-        </div>
-    </div>
+	<div id="footer_wrapper">
+		<div id="footer" class="clearfix">
+				<div id="copyright">Copyright <?php echo date('Y');?> study room of sakurai. All Rights Reserved</div>
+				<div id="footer_navi">
+					<a href="/">コンテンツ5</a> | 
+					<a href="/">コンテンツ6</a> | 
+					<a href="/">コンテンツ7</a>
+				</div>
+		</div>
+	</div>
 </div>
 </body>
 </html>
